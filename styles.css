@@ -90,11 +90,16 @@ h3 {
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: none;
     background-color: hsl(71, 73%, 54%);
     color: white;
     border-radius: 5px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: hsl(71, 61%, 54%);
 }
 
 .price-container {
