@@ -1,0 +1,59 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.top-card-container {
+    margin: 200px;
+    background-color: white;
+}
+
+.top-card-join {
+    margin: 20px;
+    padding: 20px;
+}
+
+.subscription-container {
+    display: flex;
+}
+
+.subscription {
+    flex: 50%;
+    padding: 20px;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+
+}
+
+.why-us {
+    color: white;
+    flex: 50%;
+    padding: 20px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.why-us>p {
+    line-height: 1.8px;
+    color: white;
+}
