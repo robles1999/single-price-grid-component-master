@@ -37,7 +37,6 @@ h3 {
     background-color: white;
     margin: auto;
     margin-top: 150px;
-    width: 650px;
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
@@ -53,10 +52,11 @@ h3 {
 
 .subscription-container {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .subscription {
-    flex: 50%;
+    flex: 100%;
     padding: 20px 20px 20px 40px;
     background-color: hsl(179, 59%, 40%);
 
@@ -70,7 +70,7 @@ h3 {
 
 .why-us {
     color: hsl(220, 35%, 90%);
-    flex: 50%;
+    flex: 100%;
     padding: 20px;
     padding-left: 40px;
     background-color: hsl(179, 62%, 43%);
@@ -86,7 +86,6 @@ h3 {
 
 ul {
     list-style: none;
-    /* margin: 0; */
     padding: 0;
     opacity: 0.8;
 }
@@ -124,4 +123,17 @@ button:active {
 .frequency {
     margin: auto 0;
     color: hsl(218, 20%, 71%);
+}
+
+@media (min-width: 665px) {
+
+    .subscription,
+    .why-us {
+        flex: 50%;
+    }
+
+    .card {
+        width: 660px;
+        height: auto;
+    }
 }
