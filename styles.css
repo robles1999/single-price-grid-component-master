@@ -108,6 +108,10 @@ button:hover {
     transform: scale(1.02);
 }
 
+button:active {
+    border: 2px dotted black;
+}
+
 .price-container {
     display: flex;
 }
