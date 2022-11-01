@@ -125,7 +125,7 @@ button:active {
     color: hsl(218, 20%, 71%);
 }
 
-@media (min-width: 665px) {
+@media (min-width: 675px) {
 
     .subscription,
     .why-us {
